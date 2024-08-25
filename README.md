@@ -1,9 +1,9 @@
-**AWS Security Best Practices with Terraform**
+## AWS Security Best Practices with Terraform
 
 Welcome to the AWS Security Best Practices repository! This project is focused on automating the deployment of critical security configurations across your AWS environment using Terraform. The goal is to ensure a robust security posture by implementing and enforcing best practices across various AWS services.
 
-**Overview**
-**This repository contains Terraform scripts that automate the setup of essential AWS security services and configurations, including:**
+## Overview
+## This repository contains Terraform scripts that automate the setup of essential AWS security services and configurations, including:
 
 1.AWS Security Hub: A comprehensive view of your security state across your AWS accounts, detecting deviations from security best practices.
 
