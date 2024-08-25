@@ -30,3 +30,58 @@ Welcome to the AWS Security Best Practices repository! This project is focused o
 3.Basic knowledge of AWS services such as Security Hub, Config, Macie, Organizations, IAM, GuardDuty, CloudTrail.
 
 4.Familiarity with the basics of Terraform, including how to write Terraform configuration files (.tf).
+
+# Step 1: Clone the Repository
+
+1. Open a terminal or command prompt on your local machine.
+
+2. Clone the repository containing the Terraform configuration files
+
+   `git clone https://github.com/TerraSafe.git`
+
+3.  Change into the project directory
+
+    `cd TerraSafe`
+
+# Step 2: Configure AWS Credentials
+
+1. Open the AWS Management Console in your web browser.
+2. Navigate to the IAM service.
+3. Create a new IAM user or use an existing one.
+4. Assign the Admin permissions to the IAM user. 
+5. Generate an access key ID and secret access key for the IAM user.
+
+   `aws configure`
+   
+6. Enter the access key ID and secret access key when prompted, and optionally set the default region.
+
+# Step 3: Initialize Terraform
+1. Install the terraform binary from the terraform official website (For windows). Download terraform as per the Operating 
+   system
+
+   https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+   
+3. Now copy and paste the binary in the project directory (For Windows OS only)
+4. Run the following command to fix any syntax issue
+
+   `terraform fmt`
+5. Run the following command to initialize Terraform and download the required providers:
+
+   `terraform init`
+   
+# Step 4: Review and Validate the Configuration
+
+1. To preview the changes that Terraform will make, run:
+
+   `terraform plan`
+   
+   Examine the output to ensure that the proposed infrastructure aligns with your expectations.
+
+# Step 5: Deploy the Infrastructure
+
+1. Deploy the infrastructure by running:
+
+   `terraform apply --auto-approve`
+
+2. Wait while Terraform provisions the infrastructure. This may take several minutes.
+    
