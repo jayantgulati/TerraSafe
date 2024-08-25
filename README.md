@@ -84,4 +84,9 @@ Welcome to the AWS Security Best Practices repository! This project is focused o
    `terraform apply --auto-approve`
 
 2. Wait while Terraform provisions the infrastructure. This may take several minutes.
+
+
+## Contribution
+
+Feel free to contribute to this project by submitting issues or pull requests. Contributions to expand the scope of security services or improve existing configurations are highly appreciated!
     
