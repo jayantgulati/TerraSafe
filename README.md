@@ -18,3 +18,15 @@ Welcome to the AWS Security Best Practices repository! This project is focused o
 **AWS Config Rules**: Implements security checks, such as ensuring IAM users and root accounts have MFA enabled, and monitors for security misconfigurations.
 
 **AWS Organizations**: Automatically enables and configures security settings for new accounts within your AWS Organization.
+
+# Prerequisites
+
+**Before you begin, ensure that you have the following prerequisites:**
+
+1.AWS account credentials (access key ID and secret access key).
+
+2.Terraform installed on your local machine. You can download Terraform from the official website: https://www.terraform.io/downloads.html.
+
+3.Basic knowledge of AWS services such as Security Hub, Config, Macie, Organizations, IAM, GuardDuty, CloudTrail.
+
+4.Familiarity with the basics of Terraform, including how to write Terraform configuration files (.tf).
