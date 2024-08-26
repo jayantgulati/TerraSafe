@@ -84,6 +84,17 @@ Welcome to the AWS Security Best Practices repository! This project is focused o
    `terraform apply --auto-approve`
 2. Wait while Terraform provisions the infrastructure. This may take several minutes.
 
+# Step 6 : Destroy the Infrastructure (Optional- It will save unneccessary cost)
+
+To remove all resources created by Terraform, follow these steps:
+
+Navigate to the project directory in your terminal or command prompt.
+
+Run the following command to destroy the infrastructure:
+
+terraform destroy 
+
+Type yes to confirm and proceed with the destruction.
 
 ## Issues while destroying the infrastructure (Optional)
 
