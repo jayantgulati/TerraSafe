@@ -91,10 +91,19 @@ Welcome to the AWS Security Best Practices repository! This project is focused o
 
 ![image](https://github.com/user-attachments/assets/f5052822-a026-4fe0-a860-d205136449a1)
 
-This is becasue the s3 bucket is not empty. We need to delete all the objects within S3 bucket before running below command:
+This is becasue the s3 bucket is not empty. We need to delete all the objects within S3 bucket using console before running below command:
+
+![image](https://github.com/user-attachments/assets/f538c33e-47b1-4c06-b6df-514c3a263289)
+
 
 `terraform destroy -auto-approve`  : To delete the created infrastucture.
    
+
+## Conclusion
+
+In today's rapidly evolving cloud landscape, security is paramount. This repository provides the essential tools and practices to ensure your AWS environment is fortified from the start. By automating key security configurations, you can focus on innovation with the confidence that your infrastructure is protected. Dive in, contribute, and let's work together to build a safer cloud ecosystem. 
+
+Note - Make sure to delete the infrastructure to avoid any cost (In case of learning).
 
 ## Contribution
 
