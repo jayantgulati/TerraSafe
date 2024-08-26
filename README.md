@@ -82,9 +82,19 @@ Welcome to the AWS Security Best Practices repository! This project is focused o
 1. Deploy the infrastructure by running:
 
    `terraform apply --auto-approve`
-
 2. Wait while Terraform provisions the infrastructure. This may take several minutes.
 
+
+## Issues while destroying the infrastructure (Optional)
+
+1. You might face an error while deleting the S3 buckets.
+
+![image](https://github.com/user-attachments/assets/f5052822-a026-4fe0-a860-d205136449a1)
+
+This is becasue the s3 bucket is not empty. We need to delete all the objects within S3 bucket before running below command:
+
+`terraform destroy -auto-approve`  : To delete the created infrastucture.
+   
 
 ## Contribution
 
