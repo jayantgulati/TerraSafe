@@ -7,7 +7,7 @@ variable "billing_threshold" {
 variable "notification_email" {
   description = "The email address to receive billing alerts"
   type        = string
-  default     = "jayantgulati5@gmail.com"  # Replace with your email
+  default     = "jayantgulati5@gmail.com" # Replace with your email
 }
 
 variable "cloudtrail_name" {}

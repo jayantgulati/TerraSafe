@@ -17,6 +17,6 @@ resource "aws_config_config_rule" "mfa_enabled_rule" {
 
   tags = {
     ManagedBy = var.config_rule_tag
-      }
+  }
 
 }
